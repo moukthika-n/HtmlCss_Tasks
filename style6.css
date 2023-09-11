@@ -1,0 +1,44 @@
+.table-box {
+    border: 1px solid black; 
+    padding: 2px; 
+    width: 70%; 
+    margin: 0 auto;
+    background-color: #ADD8E6;
+    border-radius: 10px;
+}
+.btd1{
+    outline: thin solid; 
+    text-align: left;
+    height: 30%;
+    border-radius: 10px;
+    width: 400px;
+    height: 10px;
+    border: 1px solid#000;
+}
+.btd2{
+    outline: thin solid; 
+    text-align: left;
+    height: 30%;
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    border: 1px solid#000;
+}
+.bth1 {
+    outline: thin solid; 
+    text-align: center;
+    height: 30%;
+    border-radius: 10px;
+    width: 400px;
+    height: 10px;
+    border: 1px solid#000;
+}
+.bth2 {
+    outline: thin solid; 
+    text-align: center;
+    height: 30%;
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    border: 1px solid#000;
+}

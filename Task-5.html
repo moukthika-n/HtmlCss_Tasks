@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-5</title>
+    <style>
+        .center{
+            outline: thin solid; 
+            text-align: center;
+            height: 30%;
+        }
+        h2{
+            color:blue; 
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h2>Registration form</h2>
+    <form>
+        <center>
+            <table style="width:50%; border-spacing: 0;" cellpadding="2" cellspacing="2">
+                <!--First Name-->
+                <tr class="center">
+                    <td class="center"><label for="fn">First Name</label></td>
+                    <td><input type="text" name="fn"></td>
+                </tr>
+                <!--Last Name-->
+                <tr class="center">
+                    <td class="center"><label for="ln">Last Name</label></td>
+                    <td><input type="text" name="ln"></td>
+                </tr>
+                <!--email-->
+                <tr class="center">
+                    <td class="center"><label for="mail">Email</label></td>
+                    <td><input type="email" name="mail"></td>
+                </tr>
+                <!--Password-->
+                <tr class="center">
+                    <td class="center"><label for="pw">Password</label></td>
+                    <td><input type="password" name="pw"></td>
+                </tr>
+                <!--Re-enter Password-->
+                <tr class="center">
+                    <td class="center"><label for="rpw">Re-enter Password</label></td>
+                    <td><input type="password" name="rpw"></td>
+                </tr>
+                <!--Gender-->
+                <tr class="center">
+                    <td class="center"><label>Gender</label></td>
+                    <td>
+                        <input type="radio" name="gender"/>Male
+                        <hr color="black">&nbsp&nbsp
+                        <input type="radio" name="gender"/>Female
+                    </td>
+                    </td>
+                </tr>
+                <!--Age-->
+                <tr class="center">
+                    <td class="center"><label for="age">Age:</label></td>
+                    <td><input type="number" name="age"></td>
+                </tr>
+                <!--Phone Number-->
+                <tr class="center">
+                    <td class="center"><label for="phno">Phone Number</label></td>
+                    <td><input type="number" name="phno"></td>
+                </tr>
+                <!--Address-->
+                <tr class="center">
+                    <td class="center"><label>Address</label></td>
+                    <td><textarea></textarea></td>
+                </tr>
+                <!--State-->
+                <tr class="center">
+                    <td class="center"><label for="state">State</label></td>
+                    <td><input type="text" name="state"></td>
+                </tr>
+                <!--Country-->
+                <tr class="center">
+                    <td class="center"><label>Country</label></td>
+                    <td>
+                        <select>
+                            <option>Choose your country</option>
+                            <option>Country1</option>
+                            <option>Country2</option>
+                            <option>Country3</option>
+                            <option>Country4</option>
+                        </select>
+                    </td>
+                </tr>
+                <!--Languages known-->
+                <tr class="center">
+                    <td class="center"><label>Languages known</label></td>
+                    <td>
+                        <input type="checkbox"/>English
+                        <input type="checkbox"/>Kannada
+                        <input type="checkbox"/>Hindi
+                        <input type="checkbox"/>Telugu
+                    </td>
+                </tr>
+                <!--Checkbox-->
+                <tr style="outline: thin solid">
+                    <td>
+                        <input type="checkbox"/>Hereby I declare all the given details are true
+                    </td>
+                </tr>
+                <tr style="outline: thin solid; text-align: end;">
+                    <td></td>
+                    <td>
+                        <p>Log in to <a href="https://www.ethnus.com">Ethnus</a> website<p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+            <input type="submit" value="Register"/>
+        </center>
+    </form>
+</body>
+</html>

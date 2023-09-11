@@ -1,0 +1,42 @@
+body{
+    margin: 20px;
+  }
+  /* Define the CSS for the big box */
+  .big-box {
+    display: flex;
+    justify-content: flex-start;
+    width: 450px;
+    height: 300px;
+    background-color: #E0DC3C;
+    padding: 30px 10px;
+    border: 1px dotted #830374;
+  }
+
+  /* Define the CSS for the small rectangular divs */
+  .small-rect {
+    width: 90px;
+    height: 22px;
+    background-color: whitesmoke;
+    margin: 6px;
+    border-right: 10px solid black; 
+    font-size: small;
+    padding: 0px 5px;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .right-content {
+    padding-left: 20px;
+    margin-top: -30px;
+  }
+
+  .line{
+    border: 1px dotted #830374;
+  }
+
+  h2, p{
+    color: #830374;
+    font-family: sans-serif;
+  }
