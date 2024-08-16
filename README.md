@@ -12,8 +12,33 @@ This repository consists of various projects that explore different aspects of w
 ## 🌟 Features
 
 - Clean and responsive design
-- Use of modern CSS features like Flexbox and Grid
 - Follows best practices for accessibility
 - Consistent design patterns
 - Cross-browser compatibility
 - Organized and well-commented code
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- A web browser (e.g., Google Chrome, Firefox, etc.)
+- Git installed on your local machine
+
+### Installation
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/moukthika-n/HtmlCss_Tasks.git
+   ```
+2. **Navigate to the Project Directory**:
+
+   ```bash
+   cd HtmlCss_Tasks
+   ```
+3. **Open the Project**:
+
+   ```bash
+   open index.html
+   ```
+   
