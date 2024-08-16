@@ -17,8 +17,3 @@ This repository consists of various projects that explore different aspects of w
 - Consistent design patterns
 - Cross-browser compatibility
 - Organized and well-commented code
-
-## 📁 Project Structure
-
-Here's a quick look at the project structure:
-
